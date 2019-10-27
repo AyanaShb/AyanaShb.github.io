@@ -10,7 +10,7 @@ function getP(){
         document.getElementById('textx').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1643532430-zdredkAG?type=text&text=Your%20text\n\ntype => text\ntext => your text'
+                text: 'line://app/1614014948-PBdQraa8?type=text&text=Your%20text\n\ntype => text\ntext => your text'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -18,7 +18,7 @@ function getP(){
         document.getElementById('imagex').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1643532430-zdredkAG?type=image&img=https://www.crackbot.us/images/1540203011314-1.jpg\n\ntype => image\nimg => Link (must be HTTPS)'
+                text: 'line://app/1614014948-PBdQraa8?type=image&img=https://www.crackbot.us/images/1540203011314-1.jpg\n\ntype => image\nimg => Link (must be HTTPS)'
             }]).then(function () {
                 liff.closeWindow();
             });
